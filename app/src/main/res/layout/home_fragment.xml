@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/home_view_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:textSize="20sp"
+        android:text="@string/home_view_message"/>
+
+    <Button android:id="@+id/btn_viewServices"
+        android:layout_width="@dimen/big_button_width"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_makeRequest"
+        android:layout_centerHorizontal="true"
+        android:text="@string/view_services_text"/>
+
+    <Button android:id="@+id/btn_makeRequest"
+        android:layout_width="@dimen/big_button_width"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_signOut"
+        android:layout_centerHorizontal="true"
+        android:text="@string/service_request_text"/>
+
+    <Button android:id="@+id/btn_signOut"
+        android:layout_width="@dimen/big_button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_out_text"/>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_button_width">200dp</dimen>
+    <dimen name="container_margin">20dp</dimen>
+    <dimen name="spinner_margin">8dp</dimen>
+</resources>

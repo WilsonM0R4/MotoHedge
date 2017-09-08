@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="document_types">
+        <item name="dt">tipo de documento</item>
+        <item name="cc">cédula de ciudadanía</item>
+        <item name="ps">pasaporte</item>
+        <item name="nit">NIT</item>
+        <item name="ce">cèdula de extranjería</item>
+    </string-array>
+
+    <string-array name="kindOfService_array">
+        <item> <string name="grua">Grúa</string> </item>
+        <item> <string name="taller">Carro taller</string></item>
+        <item> <string name="asistencia">Asistencia legal</string> </item>
+    </string-array>
+
+    <string-array name="kindOfVehicle_array">
+        <item> <string name="motorcycle">Moto</string> </item>
+        <item> <string name="car">Carro</string> </item>
+    </string-array>
+
+</resources>

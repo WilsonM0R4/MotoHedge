@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/service_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/kind_of_service" />
+
+            <Spinner
+                android:id="@+id/spinner_kindOfService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/vehicle_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/kind_of_vehicle" />
+
+            <Spinner
+                android:id="@+id/spinner_kindOfVehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textView_WRU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/where_are_you" />
+
+            <FrameLayout
+                android:id="@+id/mapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <!--com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/-->
+
+            <!--ImageView android:id="@+id/imageView_map"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:background="@color/cardview_dark_background"
+                android:scaleType="centerCrop"/-->
+
+            <EditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="@string/description_hint"
+                android:padding="5dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/cancel_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/send_button"
+                    android:layout_toStartOf="@+id/send_button"
+                    android:text="@string/cancel_button_text"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/send_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/send_button_text"
+                    android:textAllCaps="false" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

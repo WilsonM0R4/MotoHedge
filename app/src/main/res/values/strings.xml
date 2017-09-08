@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MotoHedge</string>
+    <string name="welcome_greeting">¡Bienvenido!</string>
+    <string name="login_text">Ingresa</string>
+    <string name="register_text">registrate</string>
+    <string name="email_hint">email</string>
+    <string name="password_hint">contraseña</string>
+    <string name="needed_credential_message">Por favor, revisa tus credenciales</string>
+    <string name="name_hint">nombres</string>
+    <string name="lastname_hint">apellido</string>
+    <string name="doc_number_hint">número de documento</string>
+    <string name="cellphone_hint">celular</string>
+    <string name="telephone_hint">teléfono</string>
+    <string name="confirm_password_hint">confirmar contraseña</string>
+    <string name="home_view_message">¿en qué te podemos ayudar?</string>
+    <string name="legal_assistance">Asistencia legal</string>
+    <string name="professional_driver">Conductor</string>
+    <string name="mobile_workshop">Moto taller</string>
+    <string name="crane">Grúa</string>
+    <string name="service_request_text">Pedir un servicio</string>
+    <string name="view_services_text">Ver servicios</string>
+    <string name="kind_of_service">¿qué tipo de servicio necesitas?</string>
+    <string name="where_are_you">¿en dónde te encuentras?</string>
+    <string name="description_hint">describe tu incidente</string>
+    <string name="cancel_button_text">cancelar</string>
+    <string name="send_button_text">enviar</string>
+    <string name="sign_out_text">cerrar sesión</string>
+
+    <string name="google_maps_api_key">AIzaSyAnugoAj0f1AkCF7n6ejCBxpiH_ghisePc</string>
+    <string name="kind_of_vehicle">¿de qué tipo es tu vehículo?</string>
+
+</resources>
